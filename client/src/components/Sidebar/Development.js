@@ -8,14 +8,14 @@ import { Typography } from '@mui/material';
 import { Navigate, useNavigate } from "react-router-dom";
 import './ministry.css'
 
-export default function SundaysSchool() {
+export default function Development() {
     const Navigate = useNavigate()
 
     return (
 
         <>
             <div className="card1" style={{}}>
-                <h2 id="note">Welcome to Chapel - Sunday School Leaders </h2>
+                <h2 id="note">Welcome to Chapel - Development Leaders </h2>
                 <Card
                     style={{
                         width: 360,
@@ -32,7 +32,7 @@ export default function SundaysSchool() {
 
                         </Typography>
                         <Typography variant="h5" component="h5">
-                            Name: Susan Wayua
+                            Name: Sammy John
                         </Typography>
                         <Typography
                             style={{
@@ -46,7 +46,7 @@ export default function SundaysSchool() {
                             {/* Home County: Kitui */}
                         </Typography>
                         <Typography variant="h5" component="h5">
-                            Position: Coordinator
+                            Position: AG. Chairman
                         </Typography>
                     </CardContent>
                     <CardActions>
@@ -73,7 +73,7 @@ export default function SundaysSchool() {
 
                         </Typography>
                         <Typography variant="h5" component="h5">
-                            Name: Mrs. Katumba
+                            Name: John Makanda
                         </Typography>
                         <Typography
                             style={{
@@ -87,7 +87,7 @@ export default function SundaysSchool() {
                             {/* Home County: Homa Bay */}
                         </Typography>
                         <Typography variant="h5" component="h5">
-                            Position: Teacher
+                            Position: Vice Chair
                         </Typography>
                     </CardContent>
                     <CardActions>
@@ -114,7 +114,7 @@ export default function SundaysSchool() {
 
                         </Typography>
                         <Typography variant="h5" component="h5">
-                            Name: Mumba Julius
+                            Name: Prince Robert
                         </Typography>
                         <Typography
                             style={{
@@ -128,7 +128,7 @@ export default function SundaysSchool() {
                             {/* Home County: Kilifi */}
                         </Typography>
                         <Typography variant="h5" component="h5">
-                            Position: Teacher
+                            Position: Secretary
                         </Typography>
                     </CardContent>
                     <CardActions>
@@ -155,7 +155,7 @@ export default function SundaysSchool() {
 
                         </Typography>
                         <Typography variant="h5" component="h5">
-                            Name: Jackson Kalume
+                            Name: Angela Kavuli
                         </Typography>
                         <Typography
                             style={{
@@ -169,7 +169,7 @@ export default function SundaysSchool() {
                             {/* Home County: Kilifi */}
                         </Typography>
                         <Typography variant="h5" component="h5">
-                            Position: Teacher
+                            Position: Treasurer
                         </Typography>
                     </CardContent>
                     <CardActions>
@@ -196,7 +196,7 @@ export default function SundaysSchool() {
 
                         </Typography>
                         <Typography variant="h5" component="h5">
-                            Name: Janet Sidi
+                            Name: Josephine Julius
                         </Typography>
                         <Typography
                             style={{
@@ -210,7 +210,7 @@ export default function SundaysSchool() {
                             {/* Home County: Kitui */}
                         </Typography>
                         <Typography variant="h5" component="h5">
-                            Position: Teacher
+                            Position: Representative
                         </Typography>
                     </CardContent>
                     <CardActions>

@@ -1,12 +1,13 @@
 .card1{
     position: absolute;
     left: 8%;
+    top: 26%;
 }
 
 .card2{
     position: absolute;
-    left: 50%;
-    top:37%
+    left: 38%;
+    top:37%;
     
 }
 
@@ -18,8 +19,14 @@
 }
 .card4{
     position: absolute;
-    left: 50%;
+    left: 38%;
     top:65%
+}
+
+.card5{
+    position: absolute;
+    left: 68%;
+    top:37%
 }
 
 #note{

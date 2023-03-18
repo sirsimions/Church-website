@@ -15,7 +15,7 @@ export default function Pulpit() {
   return (
     <>
     <div className="card1" style={{}}>
-      <h2 id="note">Welcome to Chapel Pulpit Ministry</h2>
+      <h2 id="note">Welcome to Chapel - Pulpit Ministry Leaders</h2>
       <Card
         style={{
           width: 400,

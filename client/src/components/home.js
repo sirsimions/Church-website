@@ -36,7 +36,7 @@ function Home() {
                 <div className='txt'><button onClick={handleBranch} className='bt'>Contact us</button></div>
                 <div className='text'>{branch}</div>
             </div>
-            <div className='summary'>Chapel Fellowship Ministries is a Bible living church in Kenya. The church is located in Malindi, Kilifi county. The church has its headquarter in Malindi town Kwa Chocha area and has a branch in Msabaha.</div>
+            <div className='summary'>Chapel Fellowship Ministries is a Bible living church in Kenya. The church is located in Malindi, Kilifi county. The church has its headquarter in Malindi town Kwa Chocha area and has a branch in Msabaha. <br/><span className='state'>Our Mision:</span> To Reach the unreached and preach the word of God <br/><span className='state'>Our Vision:</span> To become the source of truth to the entire world about our Lord Jesus Christ and accomplish His mission</div>
             <div className='bgimage' style={styles.paperContainer}></div>
 
 

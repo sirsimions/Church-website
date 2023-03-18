@@ -15,7 +15,7 @@ export default function Outreach() {
     
     <>
     <div className="card1" style={{}}>
-      <h2 id="note">Welcome to Chapel Outreach Ministry</h2>
+      <h2 id="note">Welcome to Chapel - Outreach Leaders</h2>
       <Card
         style={{
           width: 400,
