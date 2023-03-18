@@ -1,0 +1,37 @@
+.card1{
+    position: absolute;
+    left: 8%;
+}
+
+.card2{
+    position: absolute;
+    left: 50%;
+    top:37%
+    
+}
+
+.card3{
+    position: absolute;
+    left: 8%;
+    top:65%
+    
+}
+.card4{
+    position: absolute;
+    left: 50%;
+    top:65%
+}
+
+#note{
+    position: relative;
+    left: 70%;
+}
+#but{
+    position: absolute;
+    top: 96%;
+    background-color: rgb(250, 153, 118);
+    border: none;
+    border-radius: 4px ;
+    height: 4%;
+    cursor: pointer
+}
