@@ -19,7 +19,7 @@ export default function Pulpit() {
       <Card
         style={{
           width: 400,
-          backgroundColor: "grey",
+          backgroundColor: "",
         }}
       >
         <CardContent>
@@ -60,7 +60,7 @@ export default function Pulpit() {
       <Card
         style={{
           width: 400,
-          backgroundColor: "grey",
+          backgroundColor: "",
         }}
       >
         <CardContent>
@@ -101,7 +101,7 @@ export default function Pulpit() {
       <Card
         style={{
           width: 400,
-          backgroundColor: "grey",
+          backgroundColor: "",
         }}
       >
         <CardContent>
@@ -142,7 +142,7 @@ export default function Pulpit() {
       <Card
         style={{
           width: 400,
-          backgroundColor: "grey",
+          backgroundColor: "",
         }}
       >
         <CardContent>

@@ -19,7 +19,7 @@ export default function SundaysSchool() {
                 <Card
                     style={{
                         width: 360,
-                        backgroundColor: "grey",
+                        backgroundColor: "",
                     }}
                 >
                     <CardContent>
@@ -60,7 +60,7 @@ export default function SundaysSchool() {
                 <Card
                     style={{
                         width: 360,
-                        backgroundColor: "grey",
+                        backgroundColor: "",
                     }}
                 >
                     <CardContent>
@@ -101,7 +101,7 @@ export default function SundaysSchool() {
                 <Card
                     style={{
                         width: 360,
-                        backgroundColor: "grey",
+                        backgroundColor: "",
                     }}
                 >
                     <CardContent>
@@ -142,7 +142,7 @@ export default function SundaysSchool() {
                 <Card
                     style={{
                         width: 360,
-                        backgroundColor: "grey",
+                        backgroundColor: "",
                     }}
                 >
                     <CardContent>
@@ -183,7 +183,7 @@ export default function SundaysSchool() {
                 <Card
                     style={{
                         width: 360,
-                        backgroundColor: "grey",
+                        backgroundColor: "",
                     }}
                 >
                     <CardContent>

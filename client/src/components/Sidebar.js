@@ -26,6 +26,9 @@ export default sidemenu => {
       <a className="menu-item" href="/menfellowship">
         Men Fellowship
       </a>
+      <a className="menu-item" href="/signup">
+        Signup
+      </a>
     </Menu>
   );
 };
