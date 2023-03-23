@@ -11,11 +11,19 @@ import './ministry.css'
 export default function Choir() {
     const Navigate = useNavigate()
 
+    const styles = {
+        paperContainer: {
+            height: 657,
+            backgroundImage: `url(${"https://images.pexels.com/photos/2114014/pexels-photo-2114014.jpeg?auto=compress&cs=tinysrgb&w=600"})`
+        }
+    };
+
     return (
 
         <>
+        <h4 id="note">Welcome to Chapel - Choir Ministry Leaders </h4>
             <div className="card1" style={{}}>
-                <h2 id="note">Welcome to Chapel - Choir Ministry Leaders </h2>
+                {/* <h4 id="note">Welcome to Chapel - Choir Ministry Leaders </h4> */}
                 <Card
                     style={{
                         width: 360,
@@ -219,6 +227,7 @@ export default function Choir() {
                 </Card>
             </div>
             <button id='but' onClick={() => Navigate('/departments')}>Go Back</button>
+            <div className='bgimage' style={styles.paperContainer}></div>
         </>
     );
 }

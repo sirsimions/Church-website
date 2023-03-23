@@ -1,5 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
+import { Navigate, useNavigate } from 'react-router-dom';
+import './ministry.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Signup(){
@@ -7,6 +9,15 @@ function Signup(){
     const [name, setName]=useState('')
     const [password, setPassword]=useState('')
     const[confirmPassword, setConfirmPasword]=useState('')
+    const Navigate = useNavigate()
+
+    const styles = {
+        paperContainer: {
+            height: 657,
+            backgroundImage: `url(${"https://images.pexels.com/photos/2114014/pexels-photo-2114014.jpeg?auto=compress&cs=tinysrgb&w=600"})`
+        }
+    };
+
 
     function handleSubmit(){
         fetch('/signup',{
@@ -43,11 +54,15 @@ function Signup(){
                                         <a href='/login'>Login</a>
                                     </div>
                                 </form>
+                                <button id='upbut'>Send</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <button id='but' onClick={()=>Navigate('/departments')}>Go Back</button>
+
+            <div className='bgimage' style={styles.paperContainer}></div>
         </>
     )
 }

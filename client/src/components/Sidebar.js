@@ -29,6 +29,9 @@ export default sidemenu => {
       <a className="menu-item" href="/signup">
         Signup
       </a>
+      <a className="menu-item" href="/upload">
+        Upload Video File
+      </a>
     </Menu>
   );
 };

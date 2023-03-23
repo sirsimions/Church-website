@@ -6,6 +6,7 @@ import Choir from './Choir';
 import Development from './Development';
 import SundaySchool from './Sundayschool'
 import Signup from './Signup';
+import Upload from './UploadVideo';
 
 function SidebarPages(){
 
@@ -19,6 +20,7 @@ function SidebarPages(){
         <Route exact path = '/choir' element={<Choir/>} />
         <Route exact path = '/development' element={<Development/>} />
         <Route exact path = '/signup' element={<Signup/>} />
+        <Route exact path = '/upload' element={<Upload/>} />
         {/* <Route exact path = '/menfellowship' element={<MenFellowship/>} />
         <Route exact path = '/womenfellowship' element={<WomenFellowship/>} /> */}
       </Routes>
