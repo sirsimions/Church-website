@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import './ministry.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -9,6 +9,11 @@ function Upload(){
   const [date, setDate] = useState('')
   const [file, setFile] = useState('')
 
+  const fileInput = useRef();
+    const selectFile = () => {
+        fileInput.current.click();
+    }
+
   const styles = {
     paperContainer: {
         height: 657,
@@ -17,7 +22,7 @@ function Upload(){
 };
 
   function handleSubmit(){
-       fetch('/video',{
+       fetch('/sermon',{
         method: 'POST',
         headers: {'Content-Type':'application/json'},
         body: JSON.stringify({title, date, file})
@@ -47,10 +52,11 @@ function Upload(){
                                         <input value={date} onChange={(e)=>setDate(e.target.value)} type="date" class="form-control" placeholder="Date" />
                                     </div>
                                     <div class="form-group">
-                                        <input value={file} onChange={(e)=>setFile(e.target.value)} type="text" class="form-control" placeholder="video file" />
+                                        <input value={file} onChange={(e)=>setFile(e.target.value)} type="file" class="form-control" placeholder="video file" />
                                     </div>
+                                    <button id='upbut'>Upload</button>
                                 </form>
-                                <button id='upbut'>Upload</button>
+                                
                             </div>
                         </div>
                     </div>

@@ -8,7 +8,7 @@ function Signup(){
 
     const [name, setName]=useState('')
     const [password, setPassword]=useState('')
-    const[confirmPassword, setConfirmPasword]=useState('')
+    const[confirmpassword, setConfirmPasword]=useState('')
     const Navigate = useNavigate()
 
     const styles = {
@@ -23,11 +23,11 @@ function Signup(){
         fetch('/signup',{
             method: 'POST',
             headers:{'Content-Type': 'application/json'},
-            body: JSON.stringify({name, password, confirmPassword})
+            body: JSON.stringify({name, password, confirmpassword})
         }
         )
         .then(res=>res.json())
-        .then(data=>console.log(data))
+        .then(data=>{console.log(data)})
 
     }
     return (
@@ -43,18 +43,18 @@ function Signup(){
                                         <input value={name} onChange={(e)=>setName(e.target.value)} type="text" class="form-control" id="name" placeholder="First Name" />
                                     </div>
                                     <div class="form-group">
-                                        <input value={password} onChange={(e)=>setPassword(e.target.value)} type="text" class="form-control" placeholder="Last Name" />
+                                        <input value={password} onChange={(e)=>setPassword(e.target.value)} type="password" class="form-control" placeholder="Password" />
                                     </div>
                                     <div class="form-group">
-                                        <input value={confirmPassword} onChange={(e)=>setConfirmPasword(e.target.value)} type="text" class="form-control" placeholder="Your Gender" />
+                                        <input value={confirmpassword} onChange={(e)=>setConfirmPasword(e.target.value)} type="password" class="form-control" placeholder="Confirm your password" />
                                     </div>
                                     
                                     <div class="d-flex flex-row align-items-center justify-content-between">
                                         <small>Already registered?</small>
                                         <a href='/login'>Login</a>
                                     </div>
+                                    <button id='upbut'>Send</button>
                                 </form>
-                                <button id='upbut'>Send</button>
                             </div>
                         </div>
                     </div>
