@@ -12,7 +12,7 @@ function Navbar() {
             <div className='navs' id='nav'>
                 <div className='navItem'><Nav.Link as={Link} to='/' className='links'> Home</Nav.Link></div>
                 <div className='navItem'><Nav.Link as={Link} to='/departments' className='links'>Ministries</Nav.Link></div>
-                <div className='navItem'><Nav.Link as={Link} to='/sermons' className='links'> Sermons</Nav.Link></div>
+                <div className='navItem'><Nav.Link as={Link} to='/sermon' className='links'> Sermons</Nav.Link></div>
                 <div className='navItem'><Nav.Link as={Link} to='/contacts' className='links'> Contacts</Nav.Link></div>
             </div>
         </>

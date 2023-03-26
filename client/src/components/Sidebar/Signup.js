@@ -8,7 +8,7 @@ function Signup(){
 
     const [name, setName]=useState('')
     const [password, setPassword]=useState('')
-    const[confirmpassword, setConfirmPasword]=useState('')
+    const[passwordConfirmation, setPasswordConfirmation]=useState('')
     const Navigate = useNavigate()
 
     const styles = {
@@ -23,7 +23,7 @@ function Signup(){
         fetch('/signup',{
             method: 'POST',
             headers:{'Content-Type': 'application/json'},
-            body: JSON.stringify({name, password, confirmpassword})
+            body: JSON.stringify({name, password, passwordConfirmation})
         }
         )
         .then(res=>res.json())
@@ -46,7 +46,7 @@ function Signup(){
                                         <input value={password} onChange={(e)=>setPassword(e.target.value)} type="password" class="form-control" placeholder="Password" />
                                     </div>
                                     <div class="form-group">
-                                        <input value={confirmpassword} onChange={(e)=>setConfirmPasword(e.target.value)} type="password" class="form-control" placeholder="Confirm your password" />
+                                        <input value={passwordConfirmation} onChange={(e)=>setPasswordConfirmation(e.target.value)} type="password" class="form-control" placeholder="Confirm your password" />
                                     </div>
                                     
                                     <div class="d-flex flex-row align-items-center justify-content-between">
