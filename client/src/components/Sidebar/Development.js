@@ -21,7 +21,7 @@ export default function Development() {
     return (
 
         <>
-        <h4 id="note">Welcome to Chapel - Choir Ministry Leaders </h4>
+        <h4 id="note">Choir Ministry Leaders </h4>
             <div className="card1" style={{}}>
                 {/* <h2 id="note">Welcome to Chapel - Development Leaders </h2> */}
                 <Card

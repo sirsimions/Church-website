@@ -1,7 +1,10 @@
-import react from 'react'
+import React from 'react'
 import { useState } from 'react';
+import Contacts from './Contacts';
+import { Navigate, useNavigate } from 'react-router-dom';
 function Home() {
 
+    const Navigate =useNavigate('/contacts')
     const styles = {
         paperContainer: {
             height: 657,
@@ -18,7 +21,7 @@ function Home() {
     }
 
     function handleBranch() {
-        setBranch('Reach us through postal address xxxx email chapelxxxx@gmail.com')
+        setBranch('Reach us through chapelxxxx@gmail.com')
     }
 
     function handleContact() {

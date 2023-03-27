@@ -56,10 +56,23 @@
     color: beige;
        
 }
+
+.texti{
+    position: absolute;
+    left: 170%;
+    /* top: 40%; */
+    width: 350%;
+    height: 20%;
+    font-size: 1.2em;
+    /* border: 1px solid black; */
+    border-radius: 8px 8px;
+    color: black;
+}
 .txt{
    margin-top: 30%;
    
 }
+
 #buts{
  position: absolute;
  left: 14%;

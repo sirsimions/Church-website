@@ -21,7 +21,7 @@ export default function Choir() {
     return (
 
         <>
-        <h4 id="note">Welcome to Chapel - Choir Ministry Leaders </h4>
+        <h4 id="note">Choir Ministry Leaders </h4>
             <div className="card1" style={{}}>
                 {/* <h4 id="note">Welcome to Chapel - Choir Ministry Leaders </h4> */}
                 <Card
