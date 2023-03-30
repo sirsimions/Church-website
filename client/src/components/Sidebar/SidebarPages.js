@@ -15,7 +15,7 @@ function SidebarPages(){
     return (
         <>
         <sidemenu />
-      <Routes>
+      <Routes basename={process.env.PUBLIC_URL}>
         <Route exact path = '/pulpitministry' element={<Pulpit/>} />
         <Route exact path = '/outreach' element={<Outreach/>} />
         <Route exact path = '/sundayschool' element={<SundaySchool/>} />
